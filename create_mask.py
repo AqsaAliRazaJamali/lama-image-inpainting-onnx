@@ -4,7 +4,7 @@ import numpy as np
 # Read the original image
 image = cv2.imread("photo.png")
 
-# Get image dimensions
+# Get the dimesnsions of image
 height, width = image.shape[:2]
 
 # Create a completely black mask
