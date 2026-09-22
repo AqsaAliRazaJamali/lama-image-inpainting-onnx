@@ -1,98 +1,37 @@
-# LaMa Image Inpainting with ONNX Runtime
+# 🖼️ Image Inpainting with LaMa and ONNX Runtime
 
-A computer vision implementation of image inpainting using a
-pretrained LaMa model in ONNX format, executed with ONNX Runtime
-and OpenCV.
+An image inpainting project that uses a **pretrained LaMa (Large Mask Inpainting) model** in **ONNX format** to remove unwanted objects or regions from images and intelligently fill the missing area.
 
-## Overview
+The project uses **OpenCV** for image and mask processing and **ONNX Runtime** for running the pretrained deep-learning model locally.
 
-Image inpainting is the process of reconstructing missing or
-unwanted regions of an image.
+> **Note:** This project uses a pretrained LaMa model. The LaMa architecture itself was not developed from scratch.
 
-This project allows a user to:
+---
 
-1. Load an image
-2. Create a binary mask
-3. Mark an unwanted region
-4. Run the pretrained LaMa ONNX model
-5. Generate an inpainted image
+## ✨ Overview
 
-## How It Works
+Image inpainting is the process of **removing unwanted parts of an image and reconstructing the missing region** so that it looks natural.
 
+For example, if an image contains:
+
+- an unwanted object
+- a person or object in the background
+- text or a watermark
+- scratches or damaged regions
+
+we can mark that area with a **mask**, and the inpainting model attempts to reconstruct what could naturally appear there.
+
+This project provides a simple workflow:
+
+```text
 Original Image
-
       ↓
-      
-Create Mask
-
+Create / Provide Mask
       ↓
-      
-Preprocessing
-
+Preprocess Image + Mask
       ↓
-      
 LaMa ONNX Model
-
       ↓
-      
-Post-processing
-
+Post-process Output
       ↓
-      
 Inpainted Image
-
-## Example
-
-### Original
-[image]
-
-### Mask
-[image]
-
-### Result
-[image]
-
-## Technologies
-
-- Python
-- OpenCV
-- NumPy
-- ONNX
-- ONNX Runtime
-- LaMa
-
-## Installation
-
-...
-
-## Usage
-
-...
-
-## Model
-
-This project uses a pretrained LaMa model provided through
-OpenCV Zoo.
-
-The model itself is not included in this repository.
-
-## Project Structure
-
-...
-
-## Learning Outcomes
-
-Through this project, I worked with:
-
-- Image preprocessing
-- Binary masks
-- ONNX model inspection
-- Tensor dimensions
-- Model inference
-- Post-processing
-- Computer vision workflows
-
-## Acknowledgements
-
-- OpenCV Zoo
-- LaMa
