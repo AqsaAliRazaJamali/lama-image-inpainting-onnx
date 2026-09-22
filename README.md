@@ -1,75 +1,88 @@
-# 🖼️ Image Inpainting with LaMa and ONNX Runtime
+# LaMa Image Inpainting with ONNX Runtime
 
-A computer vision project that uses a **pretrained LaMa (Large Mask Inpainting) model** in **ONNX format** to remove unwanted objects or regions from images and reconstruct the missing areas.
+A computer vision implementation of image inpainting using a
+pretrained LaMa model in ONNX format, executed with ONNX Runtime
+and OpenCV.
 
-The project uses **Python, OpenCV, NumPy, and ONNX Runtime** to create masks, preprocess images, run the pretrained model, and generate the final inpainted image.
+## Overview
 
-> **Important:** This project integrates and uses a pretrained LaMa model. The LaMa model architecture was not developed or trained from scratch as part of this project.
+Image inpainting is the process of reconstructing missing or
+unwanted regions of an image.
 
----
+This project allows a user to:
 
-## 📖 Table of Contents
+1. Load an image
+2. Create a binary mask
+3. Mark an unwanted region
+4. Run the pretrained LaMa ONNX model
+5. Generate an inpainted image
 
-- [Overview](#-overview)
-- [What is Image Inpainting?](#-what-is-image-inpainting)
-- [How the Project Works](#-how-the-project-works)
-- [Project Workflow](#-project-workflow)
-- [Technologies Used](#-technologies-used)
-- [Model Information](#-model-information)
-- [Model Inputs and Outputs](#-model-inputs-and-outputs)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Model Setup](#-model-setup)
-- [Usage](#-usage)
-- [Creating a Mask](#-creating-a-mask)
-- [Running Inpainting](#-running-inpainting)
-- [Inspecting the ONNX Model](#-inspecting-the-onnx-model)
-- [Understanding the Mask](#-understanding-the-mask)
-- [Understanding Tensor Shapes](#-understanding-tensor-shapes)
-- [Technical Pipeline](#-technical-pipeline)
-- [Example](#-example)
-- [What I Learned](#-what-i-learned)
-- [Limitations](#-limitations)
-- [Future Improvements](#-future-improvements)
-- [Privacy](#-privacy)
-- [Acknowledgements](#-acknowledgements)
-- [License](#-license)
-- [Author](#-author)
+## How It Works
 
----
+Original Image
+      ↓
+Create Mask
+      ↓
+Preprocessing
+      ↓
+LaMa ONNX Model
+      ↓
+Post-processing
+      ↓
+Inpainted Image
 
-# 📌 Overview
+## Example
 
-Image inpainting is a **computer vision technique** used to remove unwanted regions from an image and reconstruct those regions using information from the surrounding area.
+### Original
+[image]
 
-For example, an image may contain:
+### Mask
+[image]
 
-- An unwanted object
-- A person in the background
-- Text or a watermark
-- Scratches
-- Damaged regions
-- Other objects that need to be removed
+### Result
+[image]
 
-Instead of simply deleting the selected pixels, an inpainting model tries to **generate a visually reasonable replacement** for the missing region.
+## Technologies
 
-This project demonstrates how a pretrained **LaMa image-inpainting model** can be integrated into a Python application using **ONNX Runtime**.
+- Python
+- OpenCV
+- NumPy
+- ONNX
+- ONNX Runtime
+- LaMa
 
-The project also includes an interactive tool for creating masks with the mouse.
+## Installation
 
----
+...
 
-# 🧠 What is Image Inpainting?
+## Usage
 
-Imagine you have this image:
+...
 
-```text
-┌───────────────────────────────┐
-│                               │
-│        Background             │
-│                               │
-│             █████             │
-│             █████             │
-│             █████             │
-│                               │
-└───────────────────────────────┘
+## Model
+
+This project uses a pretrained LaMa model provided through
+OpenCV Zoo.
+
+The model itself is not included in this repository.
+
+## Project Structure
+
+...
+
+## Learning Outcomes
+
+Through this project, I worked with:
+
+- Image preprocessing
+- Binary masks
+- ONNX model inspection
+- Tensor dimensions
+- Model inference
+- Post-processing
+- Computer vision workflows
+
+## Acknowledgements
+
+- OpenCV Zoo
+- LaMa
