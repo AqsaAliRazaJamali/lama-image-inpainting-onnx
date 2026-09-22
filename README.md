@@ -20,15 +20,25 @@ This project allows a user to:
 ## How It Works
 
 Original Image
+
       ↓
+      
 Create Mask
+
       ↓
+      
 Preprocessing
+
       ↓
+      
 LaMa ONNX Model
+
       ↓
+      
 Post-processing
+
       ↓
+      
 Inpainted Image
 
 ## Example
