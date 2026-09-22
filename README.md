@@ -674,60 +674,6 @@ The same applies to images containing other people's personal information.
 
 ---
 
-# What Should Be Uploaded to GitHub?
-
-The following project files should be included:
-
-```text
-README.md
-inpaint.py
-draw_mask.py
-create_mask.py
-inspect_model.py
-requirements.txt
-.gitignore
-```
-
-A safe example can optionally be included:
-
-```text
-examples/
-├── original.png
-├── mask.png
-└── inpainted.png
-```
-
----
-
-# What Should NOT Be Uploaded?
-
-Avoid committing:
-
-```text
-.venv/
-__pycache__/
-*.pyc
-```
-
-Do not upload:
-
-```text
-models/inpainting_lama_2025jan.onnx
-```
-
-if you are intentionally keeping the large model outside the repository.
-
-Also do not upload:
-
-- Private photographs
-- Sensitive images
-- Personal data
-- Unrelated files
-- Large temporary files
-- IDE-specific files that are not required by the project
-
----
-
 # `.gitignore`
 
 A suitable `.gitignore` for this project is:
@@ -759,7 +705,7 @@ This prevents local files and the large ONNX model from accidentally being commi
 
 # Requirements File
 
-The `requirements.txt` file should contain:
+The `requirements.txt` file contains:
 
 ```text
 numpy
