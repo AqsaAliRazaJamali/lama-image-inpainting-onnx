@@ -7,10 +7,8 @@ image = cv2.imread("photo.png")
 # Get the dimesnsions of image
 height, width = image.shape[:2]
 
-# Create a completely black mask
 mask = np.zeros((height, width), dtype=np.uint8)
 
-# Create a white rectangle in the center
 x1 = width // 3
 y1 = height // 3
 x2 = 2 * width // 3
