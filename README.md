@@ -171,7 +171,7 @@ The project was developed and tested using Python on Windows.
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/lama-image-inpainting-onnx.git
+git clone https://github.com/AqsaAliRazaJamali/lama-image-inpainting-onnx.git
 ```
 
 Move into the project directory:
