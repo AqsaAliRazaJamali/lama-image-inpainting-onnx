@@ -42,7 +42,7 @@ while True:
 
     key = cv2.waitKey(1) & 0xFF
 
-    # Press S to save
+    # Press S (just S) to save
     if key == ord("s"):
         cv2.imwrite("mask.png", mask)
         print("Mask saved as mask.png")
