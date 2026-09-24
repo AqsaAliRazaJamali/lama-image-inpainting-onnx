@@ -153,7 +153,7 @@ lama-image-inpainting-onnx/
 
 # Requirements
 
-Before running the project, make sure you have:
+Before running the project, make sure you've:
 
 - Python 3.10 or newer
 - pip
