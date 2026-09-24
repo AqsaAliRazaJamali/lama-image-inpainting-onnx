@@ -263,7 +263,7 @@ Make sure the model path used in `inpaint.py` matches this location.
 
 ---
 
-# Preparing the Input Image
+# 🖼️ Preparing the Input Image
 
 Place the image you want to process in the project directory.
 
