@@ -530,7 +530,7 @@ This is one of the important practical parts of working with pretrained models:
 
 ---
 
-# Model Inference
+# ⚡ Model Inference
 
 Once the image and mask have been prepared, they are passed to ONNX Runtime.
 
