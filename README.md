@@ -484,7 +484,7 @@ The image contains three color channels, while the mask only needs one channel.
 
 ---
 
-# Why Preprocessing Is Necessary
+# 🔄 Why Preprocessing Is Necessary
 
 A PNG or JPEG image is not automatically in the format required by a neural network.
 
