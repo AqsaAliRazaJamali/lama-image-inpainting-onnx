@@ -424,7 +424,7 @@ Understanding these dimensions is important because the input data must match th
 
 ---
 
-# Understanding the Model Input
+# 🧠 Understanding the Model Input
 
 ## Image Input
 
