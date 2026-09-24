@@ -394,7 +394,7 @@ The resulting image is saved by `inpaint.py` according to its configured output 
 
 ---
 
-# Inspecting the ONNX Model
+# 🔍 Inspecting the ONNX Model
 
 Before running inference, the model can be inspected using:
 
