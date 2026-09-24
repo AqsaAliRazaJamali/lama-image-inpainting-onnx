@@ -287,7 +287,7 @@ Project Folder
 
 ---
 
-# Creating the Mask
+# 🖌️ Creating the Mask
 
 A mask is used to tell the model which part of the image should be reconstructed.
 
