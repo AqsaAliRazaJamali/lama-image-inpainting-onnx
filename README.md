@@ -44,6 +44,8 @@ We create a mask over the object:
 ```text
 Mask
 
+Mask
+
 +-------------------------------+
 |                               |
 |       Black                   |
