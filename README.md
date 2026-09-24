@@ -229,7 +229,7 @@ onnxruntime
 
 ---
 
-# Model Setup
+# 🤖 Model Setup
 
 The project uses a pretrained LaMa model in ONNX format.
 
