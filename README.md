@@ -555,7 +555,7 @@ The model analyzes the surrounding image information and generates a reconstruct
 
 ---
 
-# Post-processing
+# 🖼️ Post-processing
 
 The neural network produces numerical output.
 
