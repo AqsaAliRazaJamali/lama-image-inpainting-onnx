@@ -131,7 +131,7 @@ The mask tells the model:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 lama-image-inpainting-onnx/
