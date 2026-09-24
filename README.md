@@ -370,7 +370,7 @@ At the same time, making the mask unnecessarily large can remove surrounding inf
 
 ---
 
-# Running the Inpainting
+# ▶️ Running the Inpainting
 
 After creating `mask.png`, run:
 
