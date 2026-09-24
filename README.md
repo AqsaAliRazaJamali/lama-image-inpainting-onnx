@@ -177,7 +177,7 @@ The project was developed and tested using Python on Windows.
 
 ---
 
-# Installation
+# 📥 Installation
 
 ## 1. Clone the Repository
 
