@@ -1,20 +1,29 @@
-# Image Inpainting with LaMa and ONNX Runtime
+# 🖼️ Image Inpainting with LaMa and ONNX Runtime
 
-A Python-based computer vision project that performs **image inpainting** using a pretrained **LaMa model in ONNX format**.
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-Inference-005CED?style=for-the-badge)
+![LaMa](https://img.shields.io/badge/Model-LaMa-blueviolet?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Project-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-The project allows an unwanted object or region in an image to be selected using a mask. The LaMa model then reconstructs that region using the surrounding visual information.
+A Python-based computer vision project that performs **image inpainting using a pretrained LaMa model in ONNX format**.
 
-The implementation uses **OpenCV**, **NumPy**, and **ONNX Runtime** to prepare the image and mask, run model inference, and save the resulting image.
+The project allows an unwanted object or region to be selected using a mask. The LaMa model then reconstructs the selected region using surrounding visual information.
 
-> **Note:** LaMa is a pretrained model used by this project. The LaMa model itself was not developed or trained from scratch.
+The implementation uses **OpenCV**, **NumPy**, and **ONNX Runtime** to prepare the image and mask, execute model inference, and save the resulting image.
+
+> **Note:** LaMa is a pretrained model used by this project. The LaMa model itself was not developed or trained from scratch as part of this project.
 
 ---
 
-## Overview
+## 📌 Overview
 
-Image inpainting is the process of removing unwanted or missing parts of an image and filling the selected area with a visually plausible reconstruction.
+**Image inpainting** is the process of removing an unwanted or missing part of an image and filling that region with a visually plausible reconstruction.
 
-For example, suppose an image contains an unwanted object:
+For example, an image may contain an unwanted object:
 
 ```text
 Original Image
