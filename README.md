@@ -1,4 +1,4 @@
-# 🖼️ Image Inpainting with LaMa and ONNX Runtime
+# Image Inpainting with LaMa and ONNX Runtime
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
