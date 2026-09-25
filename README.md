@@ -714,7 +714,7 @@ This prevents local files and the large ONNX model from accidentally being commi
 
 ---
 
-# Requirements File
+# 📦 Requirements File
 
 The `requirements.txt` file contains:
 
