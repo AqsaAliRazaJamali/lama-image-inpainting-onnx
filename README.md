@@ -895,7 +895,7 @@ Please review the applicable licenses before redistributing the pretrained model
 
 ---
 
-# Author
+# 👩‍💻 Author
 
 **Aqsa Ali Raza Jamali**
 
@@ -904,7 +904,7 @@ Sukkur IBA University
 
 ---
 
-# Project Summary
+# 📌 Project Summary
 
 This project demonstrates a complete image-inpainting workflow using a pretrained LaMa model.
 
