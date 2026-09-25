@@ -799,7 +799,7 @@ The project also involved debugging practical problems such as:
 
 ---
 
-# Limitations
+# ⚠️ Limitations
 
 The final result depends on several factors.
 
