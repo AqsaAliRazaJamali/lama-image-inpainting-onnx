@@ -732,7 +732,7 @@ pip install -r requirements.txt
 
 ---
 
-# Learning Outcomes
+# 🎓 Learning Outcomes
 
 This project provided practical experience with:
 
