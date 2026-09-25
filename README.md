@@ -847,7 +847,7 @@ Possible future improvements include:
 
 ---
 
-# Privacy
+# 🔒 Privacy
 
 The project is designed to perform the model inference locally.
 
