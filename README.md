@@ -685,7 +685,7 @@ The same applies to images containing other people's personal information.
 
 ---
 
-# `.gitignore`
+# 🚫`.gitignore`
 
 A suitable `.gitignore` for this project is:
 
