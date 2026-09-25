@@ -624,7 +624,7 @@ Mask ─────────► Mask Preprocessing
 
 ---
 
-# Example Workflow
+# 🧪 Example Workflow
 
 A safe example can be stored in:
 
