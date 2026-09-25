@@ -578,7 +578,7 @@ Save as PNG/JPEG
 
 ---
 
-# Complete Technical Pipeline
+# 🔬 Complete Technical Pipeline
 
 ```text
                   Original Image
