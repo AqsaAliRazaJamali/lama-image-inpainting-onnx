@@ -104,7 +104,7 @@ The mask tells the model:
 
 ---
 
-## ✨ Features
+## Features
 
 - Image inpainting using a pretrained LaMa model
 - ONNX model inference
