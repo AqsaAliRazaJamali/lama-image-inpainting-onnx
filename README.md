@@ -904,34 +904,5 @@ Sukkur IBA University
 
 ---
 
-# 📌 Project Summary
-
-This project demonstrates a complete image-inpainting workflow using a pretrained LaMa model.
-
-The process is:
-
-```text
-Input Image
-     |
-     v
-Create Mask
-     |
-     v
-Preprocess Image + Mask
-     |
-     v
-LaMa ONNX Model
-     |
-     v
-ONNX Runtime Inference
-     |
-     v
-Post-process Output
-     |
-     v
-Inpainted Image
-```
-
-The project focuses on practical understanding of:
 
 **Computer Vision → Image Inpainting → Masking → Pretrained Models → ONNX → ONNX Runtime → OpenCV → Neural Network Inference**
